@@ -4,6 +4,11 @@
 <head>
   <title>All Things Aircraft</title>
   <link rel="stylesheet" href="style.css">
+
+<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
 </head>
 
 <body>
@@ -15,7 +20,26 @@
   </div>
 </section>
 
+<div id="SideNav">
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li class="dropdown">
+        <a href="#">AIRCRAFT</a>
+        <ul class="dropdown-menu">
+          <li><a href=>All</a></li>
+          <li><a href=>Commercial</a></li>
+          <li><a href=>Military</a></li>
+          <li><a href=>Helicopter</a></li>
+        </ul>
+      </li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+</div>
 
+<script type="text/babel" src="script.js"></script>
 
 </body>
 
