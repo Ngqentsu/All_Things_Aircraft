@@ -12,11 +12,11 @@
 }
 .landing-text {
     text-align: center;
-    color: #fff;
+    color: #00000;
     padding-top: 180px;
 }
 .landing-text h1 {
-    font-size: 100px;
+    font-size: 300px;
 }
 .landing-text p {
     font-size: 30px;
